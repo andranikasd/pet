@@ -1,5 +1,5 @@
 ---
-replicaCount: 2
+replicaCount: 4
 appNamePrefix: rafo
 namespace: fuflo
 environment: dev
