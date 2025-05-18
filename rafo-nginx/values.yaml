@@ -1,0 +1,6 @@
+---
+replicaCount: 2
+appNamePrefix: rafo
+namespace: fuflo
+environment: dev
+image: httpd:latest
