@@ -3,7 +3,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: "{{ .Values.appNamePrefix }}-apache-deployment"
-  namespace: "{{ .Values.namespace }}"
+  namespace: default
   labels:
     env: {{ .Values.environment }}
 spec:
